@@ -9,7 +9,7 @@ export const Galery = () => {
   const images = Array(19)
     .join()
     .split(",")
-    .map((e, index) => `${imagesPath}/galery (${index + 1}).jpg `);
+    .map((e, index) => `${imagesPath}/galery(${index + 1}).jpg `);
 
   const handleClick = (increment) => {
     let newIndex = index + increment;
